@@ -1,13 +1,3 @@
-local allowed_package = "com.ugzxkc"
-local current_package = gg.getTargetPackage()
-
-if current_package ~= allowed_package then
-    gg.alert("This script is protected and cannot be used with this app.")
-    os.exit()
-end
-
--- Script starts if the package matches
-gg.alert("Welcome! Script activated for " .. allowed_package)
 function HOME()
     menu = gg.multiChoice({
         "🔌ᴀᴄᴛɪᴠᴇᴛᴏʀ",
